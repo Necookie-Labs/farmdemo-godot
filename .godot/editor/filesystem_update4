@@ -1,0 +1,4 @@
+res://Nodes/Tiles/tile_map_layer.tscn
+res://Nodes/Main.tscn
+res://Nodes/Player.tscn
+res://Nodes/player.gd

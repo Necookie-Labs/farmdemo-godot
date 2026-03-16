@@ -1,0 +1,352 @@
+[gd_scene format=3 uid="uid://bb58i8hgme47a"]
+
+[ext_resource type="Texture2D" uid="uid://d3qjr3paeyfxl" path="res://Assets/Cute_Fantasy_Free/Tiles/Beach_Tile.png" id="1_soplh"]
+[ext_resource type="Texture2D" uid="uid://cqhn8iid4kg6l" path="res://Assets/Cute_Fantasy_Free/Tiles/Cliff_Tile.png" id="2_0i2ay"]
+[ext_resource type="Texture2D" uid="uid://bfu3n5v3rwmdo" path="res://Assets/Cute_Fantasy_Free/Tiles/FarmLand_Tile.png" id="3_iv618"]
+[ext_resource type="Texture2D" uid="uid://8afe2iyn762w" path="res://Assets/Cute_Fantasy_Free/Outdoor decoration/Fences.png" id="3_l35gw"]
+[ext_resource type="Texture2D" uid="uid://6l7384f424it" path="res://Assets/Cute_Fantasy_Free/Tiles/Grass_Middle.png" id="4_8mqcp"]
+[ext_resource type="Texture2D" uid="uid://cyt1at8t3c50x" path="res://Assets/Cute_Fantasy_Free/Outdoor decoration/House_1_Wood_Base_Blue.png" id="4_jynt3"]
+[ext_resource type="Texture2D" uid="uid://cwlnv8brg3hye" path="res://Assets/Cute_Fantasy_Free/Outdoor decoration/Oak_Tree.png" id="5_3psps"]
+[ext_resource type="Texture2D" uid="uid://5vvy7iswxbhj" path="res://Assets/Cute_Fantasy_Free/Tiles/Path_Middle.png" id="5_883pc"]
+[ext_resource type="Texture2D" uid="uid://bshr2ifupaemp" path="res://Assets/Cute_Fantasy_Free/Outdoor decoration/Oak_Tree_Small.png" id="6_rxmlw"]
+[ext_resource type="Texture2D" uid="uid://dhnd11r8bye2x" path="res://Assets/Cute_Fantasy_Free/Tiles/Path_Tile.png" id="6_tia2o"]
+[ext_resource type="Texture2D" uid="uid://ltxf5gpdysov" path="res://Assets/Cute_Fantasy_Free/Outdoor decoration/Outdoor_Decor_Free.png" id="7_eysfb"]
+[ext_resource type="Texture2D" uid="uid://cr7w1t374fi3a" path="res://Assets/Cute_Fantasy_Free/Tiles/Water_Middle.png" id="7_kq7cj"]
+[ext_resource type="Texture2D" uid="uid://87h4ydncsdx" path="res://Assets/Cute_Fantasy_Free/Tiles/Water_Tile.png" id="8_l35gw"]
+[ext_resource type="Texture2D" uid="uid://cox8d0xkd5sq5" path="res://Assets/Cute_Fantasy_Free/Outdoor decoration/Bridge_Wood.png" id="14_kb0pt"]
+[ext_resource type="Texture2D" uid="uid://d26w5jkh5ued5" path="res://Assets/Cute_Fantasy_Free/Outdoor decoration/Chest.png" id="15_mc0ci"]
+
+[sub_resource type="TileMapPattern" id="TileMapPattern_l35gw"]
+tile_data = PackedInt32Array(0, 1, 3, 65536, 1, 4, 1, 65537, 3, 65537, 65537, 4)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_jynt3"]
+texture = ExtResource("1_soplh")
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+4:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+4:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3psps"]
+texture = ExtResource("2_0i2ay")
+0:0/0 = 0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+1:0/0 = 0
+1:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+2:0/0 = 0
+2:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+0:1/0 = 0
+0:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+1:1/0 = 0
+1:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+2:1/0 = 0
+2:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+0:2/0 = 0
+0:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+1:2/0 = 0
+1:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+2:2/0 = 0
+2:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+0:3/0 = 0
+0:3/0/physics_layer_0/polygon_0/points = PackedVector2Array(8, 8, -2.6755848, 8, -2.6755848, 3.8647327, -0.53511715, 0.8918619, 3.3890734, -2.318839, 8, -2.7944994)
+1:3/0 = 0
+1:3/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, 8, 2.6755848, 8, 2.6755848, 3.8647327, 0.53511715, 0.8918619, -3.3890734, -2.318839, -8, -2.7944994)
+0:4/0 = 0
+0:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(8, -8, -4.4593077, -8, -4.102563, -2.7944994, -2.4377546, 2.1999245, 3.2701588, 5.886286, 8, 6.0440197)
+1:4/0 = 0
+1:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 4.4593077, -8, 4.102563, -2.7944994, 2.4377546, 2.1999245, -3.2701588, 5.886286, -8, 6.0440197)
+0:5/0 = 0
+0:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+1:5/0 = 0
+1:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+2:5/0 = 0
+2:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ea36h"]
+texture = ExtResource("3_l35gw")
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+0:3/0 = 0
+1:3/0 = 0
+2:3/0 = 0
+3:3/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_a70jj"]
+texture = ExtResource("4_jynt3")
+2:0/0 = 0
+3:0/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+4:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+4:2/0 = 0
+5:2/0 = 0
+0:3/0 = 0
+1:3/0 = 0
+2:3/0 = 0
+3:3/0 = 0
+4:3/0 = 0
+5:3/0 = 0
+0:4/0 = 0
+1:4/0 = 0
+2:4/0 = 0
+3:4/0 = 0
+4:4/0 = 0
+5:4/0 = 0
+0:5/0 = 0
+1:5/0 = 0
+2:5/0 = 0
+3:5/0 = 0
+4:5/0 = 0
+5:5/0 = 0
+1:6/0 = 0
+2:6/0 = 0
+3:6/0 = 0
+4:6/0 = 0
+5:6/0 = 0
+1:7/0 = 0
+2:7/0 = 0
+3:7/0 = 0
+4:7/0 = 0
+5:7/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_4mjku"]
+texture = ExtResource("5_3psps")
+1:0/0 = 0
+2:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+0:3/0 = 0
+1:3/0 = 0
+2:3/0 = 0
+3:3/0 = 0
+1:4/0 = 0
+2:4/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_hulg7"]
+texture = ExtResource("6_rxmlw")
+2:0/0 = 0
+3:0/0 = 0
+4:0/0 = 0
+5:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+4:1/0 = 0
+5:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_wwpp8"]
+texture = ExtResource("7_eysfb")
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+4:0/0 = 0
+5:0/0 = 0
+6:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+4:1/0 = 0
+5:1/0 = 0
+6:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+4:2/0 = 0
+5:2/0 = 0
+6:2/0 = 0
+0:3/0 = 0
+1:3/0 = 0
+2:3/0 = 0
+3:3/0 = 0
+4:3/0 = 0
+6:3/0 = 0
+0:4/0 = 0
+1:4/0 = 0
+2:4/0 = 0
+4:4/0 = 0
+0:5/0 = 0
+1:5/0 = 0
+2:5/0 = 0
+3:5/0 = 0
+4:5/0 = 0
+0:6/0 = 0
+1:6/0 = 0
+2:6/0 = 0
+4:6/0 = 0
+0:7/0 = 0
+1:7/0 = 0
+2:7/0 = 0
+0:8/0 = 0
+1:8/0 = 0
+2:8/0 = 0
+3:8/0 = 0
+0:9/0 = 0
+1:9/0 = 0
+2:9/0 = 0
+3:9/0 = 0
+0:10/0 = 0
+1:10/0 = 0
+2:10/0 = 0
+3:10/0 = 0
+0:11/0 = 0
+1:11/0 = 0
+2:11/0 = 0
+3:11/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_rxmlw"]
+texture = ExtResource("3_iv618")
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_eysfb"]
+texture = ExtResource("4_8mqcp")
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_kb0pt"]
+texture = ExtResource("5_883pc")
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_mc0ci"]
+texture = ExtResource("6_tia2o")
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+0:3/0 = 0
+1:3/0 = 0
+0:4/0 = 0
+1:4/0 = 0
+0:5/0 = 0
+1:5/0 = 0
+2:5/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_s5s6s"]
+texture = ExtResource("7_kq7cj")
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_snhjx"]
+texture = ExtResource("8_l35gw")
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+0:3/0 = 0
+1:3/0 = 0
+0:4/0 = 0
+1:4/0 = 0
+0:5/0 = 0
+1:5/0 = 0
+2:5/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ik1st"]
+texture = ExtResource("14_kb0pt")
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+4:1/0 = 0
+5:1/0 = 0
+6:1/0 = 0
+7:1/0 = 0
+8:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+4:2/0 = 0
+5:2/0 = 0
+6:2/0 = 0
+7:2/0 = 0
+8:2/0 = 0
+0:3/0 = 0
+1:3/0 = 0
+2:3/0 = 0
+3:3/0 = 0
+4:3/0 = 0
+5:3/0 = 0
+6:3/0 = 0
+7:3/0 = 0
+8:3/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_mmmu5"]
+texture = ExtResource("15_mc0ci")
+0:0/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_ea36h"]
+physics_layer_0/collision_layer = 1
+sources/0 = SubResource("TileSetAtlasSource_jynt3")
+sources/1 = SubResource("TileSetAtlasSource_3psps")
+sources/2 = SubResource("TileSetAtlasSource_rxmlw")
+sources/3 = SubResource("TileSetAtlasSource_eysfb")
+sources/4 = SubResource("TileSetAtlasSource_kb0pt")
+sources/5 = SubResource("TileSetAtlasSource_mc0ci")
+sources/6 = SubResource("TileSetAtlasSource_s5s6s")
+sources/7 = SubResource("TileSetAtlasSource_snhjx")
+sources/8 = SubResource("TileSetAtlasSource_ik1st")
+sources/9 = SubResource("TileSetAtlasSource_mmmu5")
+sources/10 = SubResource("TileSetAtlasSource_ea36h")
+sources/11 = SubResource("TileSetAtlasSource_a70jj")
+sources/12 = SubResource("TileSetAtlasSource_4mjku")
+sources/13 = SubResource("TileSetAtlasSource_hulg7")
+sources/14 = SubResource("TileSetAtlasSource_wwpp8")
+pattern_0 = SubResource("TileMapPattern_l35gw")
+
+[node name="TileMapLayer" type="TileMapLayer" unique_id=905949189]
+tile_set = SubResource("TileSet_ea36h")

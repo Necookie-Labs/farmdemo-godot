@@ -1,0 +1,15 @@
+.import/
+.export/
+.export_presets.cfg
+
+# Godot cache
+*.translation
+*.tmp
+
+# Mono
+.mono/
+data_*/
+
+# OS files
+.DS_Store
+Thumbs.db
